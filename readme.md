@@ -6,7 +6,8 @@
 *<img width="640" alt="image" src="https://github.com/2Vladimir2/php_lab3/assets/159247721/9216198e-79a2-411d-ac81-42da633693b1">*
 
 *Поменянный скрипт*
-*<?php
+*
+<?php
     $a = 0;
     $b = 0;
 
