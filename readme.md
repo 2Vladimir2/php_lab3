@@ -92,75 +92,6 @@
 
 *3. Добавьте данные еще для 2-3 транзакций ассоциативный в массив*
 
-*<?php
-
-
-$transactions = [
-    [
-        "transaction_id" => 1,
-        "transaction_date" => "2019-01-01",
-        "transaction_amount" => 100.00,
-        "transaction_description" => "Payment for groceries",
-        "merchant_name" => "SuperMart",
-    ],
-    [
-        "transaction_id" => 2,
-        "transaction_date" => "2020-02-15",
-        "transaction_amount" => 75.50,
-        "transaction_description" => "Dinner with friends",
-        "merchant_name" => "Local Restaurant",
-    ],
-    [
-        "transaction_id" => 3,
-        "transaction_date" => "2021-03-20",
-        "transaction_amount" => 50.25,
-        "transaction_description" => "Online shopping",
-        "merchant_name" => "TechStore",
-    ],
-    [
-        "transaction_id" => 4,
-        "transaction_date" => "2022-04-05",
-        "transaction_amount" => 120.75,
-        "transaction_description" => "Movie tickets",
-        "merchant_name" => "CinemaMax",
-    ],
-    [
-        "transaction_id" => 5,
-        "transaction_date" => "2023-05-10",
-        "transaction_amount" => 30.50,
-        "transaction_description" => "Coffee with colleagues",
-        "merchant_name" => "CafeBlend",
-    ],
-];
-?>
-
-<table border="1">
-    <tr style="background-color: #a6a6a6; color: #252525">
-        <th colspan="5">Транзакции</th>
-    </tr>
-    <tr style="background-color: #a6a6a6; color: #252525">
-        <th>ID</th>
-        <th>Дата</th>
-        <th>Сумма транзакции</th>
-        <th>Описание транзакции</th>
-        <th>Название организации</th>
-    </tr>
-
-    <?php
-    foreach ($transactions as $transaction) {
-    ?>
-        <tr>
-            <td><?php echo $transaction["transaction_id"]; ?></td>
-            <td><?php echo $transaction["transaction_date"]; ?></td>
-            <td><?php echo $transaction["transaction_amount"]; ?></td>
-            <td><?php echo $transaction["transaction_description"]; ?></td>
-            <td><?php echo $transaction["merchant_name"]; ?></td>
-        </tr>
-    <?php
-    }
-    ?>
-</table>
-
 
 *<img width="597" alt="image" src="https://github.com/2Vladimir2/php_lab3/assets/159247721/58b8a50d-ea28-4b88-abfa-2b338370a303">;
 
@@ -171,17 +102,19 @@ $transactions = [
 *4.1. Функция calculateTotalAmount() рассчитывает общую сумму всех
 транзакций.*
 
-* *
+*<img width="265" alt="image" src="https://github.com/2Vladimir2/php_lab3/assets/159247721/ca5c47e8-2869-477c-ac93-abd76954eb96">*
 
 *4.2. Функция calculateAverage() рассчитывает среднее арифметическое
 всех транзакций*
 
-* * 
+*<img width="343" alt="image" src="https://github.com/2Vladimir2/php_lab3/assets/159247721/2011c6cf-bb3a-44f9-bb57-787ac00d83b8">* 
 
 *4.3. Функция mapTransactionDescriptions() возвращает новый массив,
 содержащий только описания транзакций.*
 
-* *
+*<img width="182" alt="image" src="https://github.com/2Vladimir2/php_lab3/assets/159247721/8313c17d-5fe3-4e47-91cc-3caf192181df">*
+
+
 
 
 
